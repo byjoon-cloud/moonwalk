@@ -5,7 +5,7 @@ baseurl: ""  # GitHub Pages base URL로 자동 설정됨
 description: > # description of the site (multiple lines allowed)
   Byjoon Cloud의 기술 블로그입니다. 클라우드, 개발, 인프라 등 다양한 IT 관련 내용을 다룹니다.
 
-permalink: /:slug
+permalink: /:title/
 
 favicon: "./logo.png" # relative path to site's favicon
 
