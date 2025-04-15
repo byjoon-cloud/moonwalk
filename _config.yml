@@ -1,11 +1,16 @@
 title: Byjoon Cloud
 author: Byjoon
-url: ""  # GitHub Pages URL
-baseurl: ""  # GitHub Pages base URL
+url: "https://byjoon-cloud.github.io"  # GitHub Pages URL
+baseurl: "/moonwork"  # GitHub Pages base URL
 description: > # description of the site (multiple lines allowed)
   Byjoon Cloud의 기술 블로그입니다. 클라우드, 개발, 인프라 등 다양한 IT 관련 내용을 다룹니다.
 
 permalink: /:title/
+
+# 로컬 서버 설정
+development:
+  url: "http://127.0.0.1:4000"
+  baseurl: "/moonwork"
 
 favicon: "./logo.png" # relative path to site's favicon
 
@@ -14,7 +19,7 @@ twitter:
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
+remote_theme: abhinavs/moonwalk@v1.0.0  # 특정 버전을 지정
 
 theme_config:
   appearance: "dark" # 다크 모드 유지
@@ -38,6 +43,10 @@ theme_config:
     title_misc_list: "상세 정보"
     title_blog: "블로그"
     title_old_projects: "이전 프로젝트"
+  # 추가 설정
+  style: dark
+  color_scheme: dark
+  dark_mode: true
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
