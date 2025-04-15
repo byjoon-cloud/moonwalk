@@ -3,10 +3,10 @@ navbar_entries:
     url: about
 
   - title: 블로그
-    url: blog
+    url: /moonwork/blog
 
   - title: GitHub
-    url: https://github.com/byjoon-cloud
+    url: https://github.com/
 
 project_entries:
   - title: 클라우드 인프라 구축
@@ -34,13 +34,13 @@ old_project_entries:
 
 footer_entries:
   - title: 소개
-    url: about
+    url: /moonwork/about
 
   - title: 블로그
-    url: blog
+    url: /moonwork/blog
 
   - title: GitHub
-    url: https://github.com/byjoon-cloud
+    url: https://github.com/
 
   - title: 이메일
     url: mailto:your-email@example.com
