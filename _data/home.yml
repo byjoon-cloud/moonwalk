@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: 네이티브 클라우드 개발
-    url: /blog/native-cloud-development
+    url: /blog/native-cloud
     desc: AWS, Azure, GCP 등 다양한 클라우드 플랫폼을 활용한 네이티브 클라우드 개발
 
   - title: 마이크로서비스 아키텍처
